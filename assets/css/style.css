@@ -1,0 +1,86 @@
+/* Eliminar seccion quienes somos en pantallas menores a 600px */
+@media only screen and (max-width: 600px) {
+    #quienes_somos {
+        display: none;
+    }
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* Estilos de la barra de navegación */
+
+nav{
+    background-color: rgba(10, 188, 242, 0.500);
+}
+nav .navbar-brand {
+    color: #ffffff;
+}
+
+nav .navbar-brand:hover {
+    color: #ffffff;
+}
+
+#navbarNav a {
+    color: #ffffff;
+}
+
+#navbarNav a:hover {
+    color: rgb(10, 188, 242);
+}
+
+/* Estilos de la sección "quienes_somos" */
+#quienes_somos i {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(10, 188, 242);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#quienes_somos p {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+/* Estilos de imágenes en la sección "destacados" */
+#destacados img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Estilos del cuerpo de las tarjetas */
+.card-body {
+    text-align: justify;
+    color: #ffffff;
+    background-color: rgb(10, 188, 242);
+}
+
+/* Estilos del botón en la sección de contacto */
+#contact button {
+    color: #ffffff;
+    background-color: rgb(10, 188, 242);
+}
+
+/* Estilos del footer */
+footer {
+    background-color: rgb(10, 188, 242);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 0;
+    font-size: 25px;
+}
+
+footer i {
+    color: #ffffff;
+    font-size: 25px;
+}
